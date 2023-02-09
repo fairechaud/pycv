@@ -19,7 +19,6 @@ roi = image[60:160, 320:420]
 cv2.imshow("ROI", roi)
 #cv2.waitKey(0)
 
-
 """ 
 #new aspect ratio based on width = 300 px
 r = 300.0/w
@@ -32,3 +31,4 @@ cv2.waitKey(0)
 resized = imutils.resize(image, width = 300)
 cv2.imshow("Imutils resize", resized)
 cv2.waitKey(0)
+#tutorial from https://pyimagesearch.com/2018/07/19/opencv-tutorial-a-guide-to-learn-opencv/
