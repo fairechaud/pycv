@@ -13,7 +13,7 @@ import cv2
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
 ap.add_argument("-v", "--video", help="path to the video file")
-ap.add_argument("-m", "--model", type=str, default="frcnn-resnet",
+ap.add_argument("-m", "--model", type=str, default="frcnn-mobilenet",
 	choices=["frcnn-resnet", "frcnn-mobilenet", "retinanet"],
 	help="name of the object detection model")
 ap.add_argument("-l", "--labels", type=str, default="resources/coco_classes.pickle",
